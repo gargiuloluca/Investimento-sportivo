@@ -3,380 +3,131 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Scanner Statistico Sportivo - Singole ad Alta Probabilità</title>
+    <title>Investimento Sportivo - Singole e Multipla Quota 2.50</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
         :root {
             --bg: #0b0f19;
             --surface: #131b2e;
-            --surface-hover: #1a253e;
             --border: #232f48;
             --text-main: #f8fafc;
             --text-muted: #94a3b8;
             --accent-green: #10b981;
-            --accent-green-bg: rgba(16, 185, 129, 0.12);
-            --accent-blue: #38bdf8;
             --accent-yellow: #f59e0b;
-            --accent-purple: #a855f7;
+            --accent-blue: #38bdf8;
         }
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Inter', sans-serif; }
+        body { background: var(--bg); color: var(--text-main); padding: 20px 14px; }
+        .container { max-width: 1100px; margin: 0 auto; }
+        header { border-bottom: 1px solid var(--border); padding-bottom: 16px; margin-bottom: 20px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; }
+        h1 { font-size: 1.5rem; color: var(--accent-blue); }
+        .update-badge { font-size: 0.85rem; color: var(--text-muted); background: var(--surface); padding: 6px 12px; border-radius: 6px; }
 
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-            font-family: 'Inter', -apple-system, sans-serif;
-        }
-
-        body {
-            background-color: var(--bg);
-            color: var(--text-main);
-            padding: 24px 16px;
-            line-height: 1.5;
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-
-        header {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 24px;
-            padding-bottom: 20px;
-            border-bottom: 1px solid var(--border);
-            gap: 16px;
-        }
-
-        .title-box h1 {
-            font-size: 1.6rem;
-            font-weight: 800;
-            background: linear-gradient(135deg, #38bdf8, #818cf8);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-
-        .title-box p {
-            color: var(--text-muted);
-            font-size: 0.9rem;
-            margin-top: 4px;
-        }
-
-        .meta-badge {
-            background-color: var(--surface);
-            border: 1px solid var(--border);
-            padding: 8px 14px;
-            border-radius: 8px;
-            font-size: 0.85rem;
-            color: var(--accent-blue);
-            font-weight: 600;
-        }
-
-        /* Controls / Filter Bar */
-        .controls {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 12px;
-            margin-bottom: 24px;
-            background-color: var(--surface);
+        /* Box Multipla Consigliata */
+        .multipla-box {
+            background: linear-gradient(135deg, rgba(245, 158, 11, 0.12), rgba(16, 185, 129, 0.08));
+            border: 1.5px solid var(--accent-yellow);
+            border-radius: 12px;
             padding: 16px;
-            border-radius: 12px;
-            border: 1px solid var(--border);
+            margin-bottom: 24px;
         }
+        .multi-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
+        .multi-title { font-weight: 800; font-size: 1.1rem; color: var(--accent-yellow); }
+        .multi-odds { font-size: 1.25rem; font-weight: 800; color: #ffffff; background: #b45309; padding: 4px 10px; border-radius: 6px; }
+        .multi-legs { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 10px; }
+        .leg-card { background: var(--surface); padding: 10px; border-radius: 8px; border: 1px solid var(--border); }
+        .leg-match { font-size: 0.85rem; font-weight: 600; }
+        .leg-pick { font-size: 0.95rem; font-weight: 700; color: var(--accent-green); margin-top: 4px; }
 
-        .control-group {
-            flex: 1;
-            min-width: 200px;
-        }
+        /* Griglia Match */
+        .match-card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 16px; margin-bottom: 16px; }
+        .card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; flex-wrap: wrap; gap: 8px; }
+        .league { font-size: 0.8rem; color: var(--accent-blue); font-weight: 600; }
+        .single-pick { background: rgba(16, 185, 129, 0.15); border: 1px solid var(--accent-green); color: #34d399; padding: 4px 10px; border-radius: 16px; font-size: 0.85rem; font-weight: 700; }
+        .match-title { font-size: 1.15rem; font-weight: 700; margin-bottom: 12px; }
 
-        label {
-            display: block;
-            font-size: 0.75rem;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            font-weight: 700;
-            color: var(--text-muted);
-            margin-bottom: 6px;
-        }
-
-        input, select {
-            width: 100%;
-            background: #0b0f19;
-            border: 1px solid var(--border);
-            color: var(--text-main);
-            padding: 10px 14px;
-            border-radius: 8px;
-            font-size: 0.9rem;
-            outline: none;
-            transition: border-color 0.2s;
-        }
-
-        input:focus, select:focus {
-            border-color: var(--accent-blue);
-        }
-
-        /* Match Cards */
-        .cards-grid {
-            display: grid;
-            grid-template-columns: 1fr;
-            gap: 16px;
-        }
-
-        .match-card {
-            background-color: var(--surface);
-            border: 1px solid var(--border);
-            border-radius: 12px;
-            padding: 20px;
-            transition: transform 0.15s, border-color 0.15s;
-        }
-
-        .match-card:hover {
-            border-color: #3b82f6;
-            background-color: var(--surface-hover);
-        }
-
-        .card-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 14px;
-            flex-wrap: wrap;
-            gap: 8px;
-        }
-
-        .league-tag {
-            font-size: 0.8rem;
-            font-weight: 600;
-            color: var(--accent-blue);
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-        }
-
-        .best-pick-banner {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            background: var(--accent-green-bg);
-            border: 1px solid rgba(16, 185, 129, 0.3);
-            color: #34d399;
-            padding: 6px 12px;
-            border-radius: 20px;
-            font-size: 0.85rem;
-            font-weight: 700;
-        }
-
-        .match-title {
-            font-size: 1.25rem;
-            font-weight: 700;
-            margin-bottom: 16px;
-            color: #ffffff;
-        }
-
-        /* Odds & Stats Grid */
-        .markets-container {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
-            gap: 8px;
-            margin-top: 12px;
-        }
-
-        .market-box {
-            background: #0b0f19;
-            border: 1px solid var(--border);
-            border-radius: 8px;
-            padding: 10px;
-            text-align: center;
-            transition: all 0.15s;
-        }
-
-        .market-box.top-choice {
-            border: 1.5px solid var(--accent-green);
-            background: rgba(16, 185, 129, 0.08);
-        }
-
-        .market-label {
-            font-size: 0.72rem;
-            color: var(--text-muted);
-            font-weight: 600;
-            text-transform: uppercase;
-        }
-
-        .market-prob {
-            font-size: 1.05rem;
-            font-weight: 800;
-            margin-top: 4px;
-            color: var(--text-main);
-        }
-
-        .market-box.top-choice .market-prob {
-            color: #10b981;
-        }
-
-        .stats-footer {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 16px;
-            margin-top: 16px;
-            padding-top: 12px;
-            border-top: 1px dashed var(--border);
-            font-size: 0.8rem;
-            color: var(--text-muted);
-        }
-
-        .stats-item strong {
-            color: #e2e8f0;
-        }
-
-        /* Loading / Empty States */
-        .status-msg {
-            text-align: center;
-            padding: 40px;
-            font-size: 1.1rem;
-            color: var(--text-muted);
-        }
+        .markets-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 8px; }
+        .market-item { background: var(--bg); border: 1px solid var(--border); border-radius: 6px; padding: 8px; text-align: center; }
+        .market-item.top-single { border-color: var(--accent-green); background: rgba(16, 185, 129, 0.08); }
+        .m-name { font-size: 0.7rem; color: var(--text-muted); font-weight: 600; text-transform: uppercase; }
+        .m-prob { font-size: 0.95rem; font-weight: 800; color: #fff; margin-top: 2px; }
+        .m-odds { font-size: 0.8rem; color: var(--accent-yellow); font-weight: 700; }
+        .stats-bar { font-size: 0.8rem; color: var(--text-muted); margin-top: 12px; border-top: 1px dashed var(--border); padding-top: 8px; }
     </style>
 </head>
 <body>
     <div class="container">
         <header>
-            <div class="title-box">
-                <h1>Filtro Singole ad Alta Probabilità</h1>
-                <p>Scanner probabilistico su 1X2, Doppia Chance, Under/Over 2.5, Corner e Cartellini</p>
+            <div>
+                <h1>Scanner Singole (Quota &ge; 1.50) & Multipla Max 2.50</h1>
             </div>
-            <div class="meta-badge" id="update-badge">Caricamento quote e modelli...</div>
+            <div class="update-badge" id="update-time">Caricamento...</div>
         </header>
 
-        <!-- Filtri Rapidi -->
-        <div class="controls">
-            <div class="control-group">
-                <label for="search">Cerca Squadra</label>
-                <input type="text" id="search" placeholder="Es. Napoli, Inter, Arsenal..." oninput="filterMatches()">
-            </div>
-            <div class="control-group">
-                <label for="league-filter">Campionato</label>
-                <select id="league-filter" onchange="filterMatches()">
-                    <option value="ALL">Tutti i Campionati</option>
-                </select>
-            </div>
-            <div class="control-group">
-                <label for="min-prob">Probabilità Minima Singola</label>
-                <select id="min-prob" onchange="filterMatches()">
-                    <option value="75">75% (Minimo di sicurezza)</option>
-                    <option value="80" selected>80% (Alta probabilità)</option>
-                    <option value="85">85% (Altissima probabilità)</option>
-                </select>
-            </div>
-        </div>
+        <!-- Multipla del Giorno -->
+        <div id="multipla-container"></div>
 
-        <!-- Risultati -->
-        <div id="cards-container" class="cards-grid">
-            <div class="status-msg">Analisi e caricamento delle migliori singole in corso...</div>
-        </div>
+        <!-- Elenco Partite Singole -->
+        <h2 style="font-size:1.15rem; margin-bottom:14px; color:#e2e8f0;">Singole Filtrate (Quota Minima 1.50)</h2>
+        <div id="matches-list"></div>
     </div>
 
     <script>
-        let allMatches = [];
+        fetch('data/predictions.json')
+            .then(res => res.json())
+            .then(data => {
+                document.getElementById('update-time').innerText = "Aggiornato: " + data.last_update;
 
-        async function loadData() {
-            try {
-                const res = await fetch('data/predictions.json');
-                const data = await res.json();
+                // 1. Render Multipla
+                const multi = data.multipla_consigliata;
+                if (multi && multi.legs.length > 0) {
+                    let legsHtml = multi.legs.map(l => `
+                        <div class="leg-card">
+                            <div class="leg-match">${l.match}</div>
+                            <div class="leg-pick">${l.market} @ ${l.odds} <span style="font-size:0.75rem; color:#94a3b8;">(${l.prob}%)</span></div>
+                        </div>
+                    `).join('');
 
-                document.getElementById('update-badge').innerText = `Aggiornato: ${data.last_update}`;
-                allMatches = data.matches;
+                    document.getElementById('multipla-container').innerHTML = `
+                        <div class="multipla-box">
+                            <div class="multi-header">
+                                <div class="multi-title">🎯 Multipla del Giorno (Max 4 Eventi - Quota &ge; 1.30 per evento)</div>
+                                <div class="multi-odds">Quota Totale: ${multi.total_odds}</div>
+                            </div>
+                            <div class="multi-legs">${legsHtml}</div>
+                        </div>
+                    `;
+                }
 
-                // Popola filtro campionati
-                const leagues = [...new Set(allMatches.map(m => m.league))];
-                const leagueSelect = document.getElementById('league-filter');
-                leagues.forEach(l => {
-                    const opt = document.createElement('option');
-                    opt.value = l;
-                    opt.textContent = l;
-                    leagueSelect.appendChild(opt);
-                });
+                // 2. Render Singole
+                const list = document.getElementById('matches-list');
+                list.innerHTML = data.matches.map(m => {
+                    const top = m.top_single;
+                    const boxes = Object.keys(m.all_markets).map(k => {
+                        const item = m.all_markets[k];
+                        const isTop = top && (top.market === k);
+                        return `
+                            <div class="market-item ${isTop ? 'top-single' : ''}">
+                                <div class="m-name">${k}</div>
+                                <div class="m-prob">${item.prob}%</div>
+                                <div class="m-odds">@${item.odds}</div>
+                            </div>
+                        `;
+                    }).join('');
 
-                filterMatches();
-            } catch (err) {
-                document.getElementById('cards-container').innerHTML = 
-                    '<div class="status-msg">Nessun dato ancora caricato. Esegui la prima GitHub Action dal tuo repository!</div>';
-            }
-        }
-
-        function filterMatches() {
-            const query = document.getElementById('search').value.toLowerCase();
-            const selectedLeague = document.getElementById('league-filter').value;
-            const minProb = parseFloat(document.getElementById('min-prob').value);
-
-            const filtered = allMatches.filter(m => {
-                const matchName = m.match.toLowerCase();
-                const matchesQuery = matchName.includes(query);
-                const matchesLeague = (selectedLeague === "ALL" || m.league === selectedLeague);
-                const matchesProb = m.top_bet.probability >= minProb;
-                return matchesQuery && matchesLeague && matchesProb;
-            });
-
-            render(filtered);
-        }
-
-        function render(matches) {
-            const container = document.getElementById('cards-container');
-            if (matches.length === 0) {
-                container.innerHTML = '<div class="status-msg">Nessuna partita soddisfa i criteri di probabilità impostati.</div>';
-                return;
-            }
-
-            container.innerHTML = matches.map(m => {
-                const topMarket = m.top_bet.market;
-                const mk = m.all_markets;
-
-                // Mercati principali da mostrare in griglia
-                const marketKeys = [
-                    "1", "X", "2", 
-                    "1X", "X2", "12", 
-                    "Under 2.5", "Over 2.5", 
-                    "Corner Over 8.5", "Corner Under 11.5", 
-                    "Cartellini Over 3.5", "Cartellini Under 5.5"
-                ];
-
-                const boxesHtml = marketKeys.map(key => {
-                    const isTop = (key === topMarket);
                     return `
-                        <div class="market-box ${isTop ? 'top-choice' : ''}">
-                            <div class="market-label">${key}</div>
-                            <div class="market-prob">${mk[key] || '-'}%</div>
+                        <div class="match-card">
+                            <div class="card-header">
+                                <span class="league">${m.league}</span>
+                                ${top ? `<span class="single-pick">⭐ Singola Consigliata: <strong>${top.market}</strong> @ ${top.odds} (${top.prob}%)</span>` : '<span style="font-size:0.8rem; color:#94a3b8;">Nessuna singola soddisfa quota &ge; 1.50</span>'}
+                            </div>
+                            <div class="match-title">${m.match}</div>
+                            <div class="markets-grid">${boxes}</div>
+                            <div class="stats-bar">Stima Gol: <strong>${m.exp_goals}</strong> | Media Angoli: <strong>${m.exp_corners}</strong></div>
                         </div>
                     `;
                 }).join('');
-
-                return `
-                    <div class="match-card">
-                        <div class="card-header">
-                            <span class="league-tag">${m.league}</span>
-                            <div class="best-pick-banner">
-                                ⭐ Singola Migliore: <strong>${m.top_bet.market} (${m.top_bet.probability}%)</strong>
-                            </div>
-                        </div>
-                        <div class="match-title">${m.match}</div>
-
-                        <!-- Tutte le giocate a confronto -->
-                        <div class="markets-container">
-                            ${boxesHtml}
-                        </div>
-
-                        <!-- Statistiche di supporto -->
-                        <div class="stats-footer">
-                            <span class="stats-item">Stima Gol: <strong>${m.exp_goals}</strong></span>
-                            <span class="stats-item">Media Corner Partita: <strong>${m.exp_corners}</strong></span>
-                            <span class="stats-item">Media Cartellini Partita: <strong>${m.exp_cards}</strong></span>
-                        </div>
-                    </div>
-                `;
-            }).join('');
-        }
-
-        loadData();
+            });
     </script>
 </body>
 </html>
