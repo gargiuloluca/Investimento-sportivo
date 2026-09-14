@@ -1,0 +1,36 @@
+name: Daily Sports Analytics Scanner
+
+on:
+  schedule:
+    # Esecuzione automatica ogni mattina alle 06:30 UTC (08:30 ora italiana)
+    - cron: '30 6 * * *'
+  workflow_dispatch: # Permette l'avvio manuale con 1 clic dalla scheda Actions di GitHub
+
+permissions:
+  contents: write
+
+jobs:
+  scrape-and-predict:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout del codice
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Installazione Dipendenze
+        run: pip install -r requirements.txt
+
+      - name: Esecuzione Analisi e Calcolo Probabilità
+        run: python scripts/scanner.py
+
+      - name: Salva Dati e Aggiorna Dashboard
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add data/
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update: Pronostici e statistiche $(date +'%Y-%m-%d')" && git push)
