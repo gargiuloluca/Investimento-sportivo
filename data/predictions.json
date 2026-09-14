@@ -1,34 +1,1357 @@
 {
-  "last_update": "In attesa del primo aggiornamento GitHub Actions",
-  "total_analyzed": 1,
-  "high_prob_count": 1,
+  "last_update": "14/09/2026 10:50 UTC",
+  "total_analyzed": 2132,
+  "high_prob_count": 50,
   "matches": [
     {
-      "league": "Serie A (Italia)",
-      "match": "Inter - Monza",
-      "home": "Inter",
-      "away": "Monza",
-      "exp_goals": "2.45 - 0.55",
-      "exp_corners": 10.2,
-      "exp_cards": 3.8,
+      "match": "Angers - Paris SG",
+      "home": "Angers",
+      "away": "Paris SG",
+      "exp_goals": "0.74 - 3.92",
+      "exp_corners": 9.1,
+      "exp_cards": 1.3,
       "all_markets": {
-        "1": 78.4,
-        "X": 14.2,
-        "2": 7.4,
-        "1X": 92.6,
-        "X2": 21.6,
-        "12": 85.8,
-        "Under 2.5": 42.1,
-        "Over 2.5": 57.9,
-        "Corner Over 8.5": 71.4,
-        "Corner Under 11.5": 68.2,
-        "Cartellini Over 3.5": 54.0,
-        "Cartellini Under 5.5": 82.5
+        "1": 3.1,
+        "X": 6.4,
+        "2": 88.6,
+        "1X": 9.5,
+        "X2": 95.0,
+        "12": 91.7,
+        "Under 2.5": 15.7,
+        "Over 2.5": 84.3,
+        "Corner Over 8.5": 55.2,
+        "Corner Under 11.5": 79.7,
+        "Cartellini Over 3.5": 4.5,
+        "Cartellini Under 5.5": 99.8
       },
       "top_bet": {
-        "market": "1X",
-        "probability": 92.6
-      }
+        "market": "Cartellini Under 5.5",
+        "probability": 99.8
+      },
+      "league": "Ligue 1 (Francia)"
+    },
+    {
+      "match": "Paris SG - Angers",
+      "home": "Paris SG",
+      "away": "Angers",
+      "exp_goals": "1.94 - 0.57",
+      "exp_corners": 9.1,
+      "exp_cards": 1.3,
+      "all_markets": {
+        "1": 70.1,
+        "X": 19.9,
+        "2": 9.9,
+        "1X": 90.1,
+        "X2": 29.9,
+        "12": 80.0,
+        "Under 2.5": 54.3,
+        "Over 2.5": 45.7,
+        "Corner Over 8.5": 55.2,
+        "Corner Under 11.5": 79.7,
+        "Cartellini Over 3.5": 4.5,
+        "Cartellini Under 5.5": 99.8
+      },
+      "top_bet": {
+        "market": "Cartellini Under 5.5",
+        "probability": 99.8
+      },
+      "league": "Ligue 1 (Francia)"
+    },
+    {
+      "match": "Inter - Napoli",
+      "home": "Inter",
+      "away": "Napoli",
+      "exp_goals": "1.16 - 1.29",
+      "exp_corners": 9.4,
+      "exp_cards": 1.4,
+      "all_markets": {
+        "1": 33.3,
+        "X": 27.3,
+        "2": 39.4,
+        "1X": 60.6,
+        "X2": 66.7,
+        "12": 72.7,
+        "Under 2.5": 55.8,
+        "Over 2.5": 44.2,
+        "Corner Over 8.5": 60.2,
+        "Corner Under 11.5": 75.8,
+        "Cartellini Over 3.5": 5.2,
+        "Cartellini Under 5.5": 99.7
+      },
+      "top_bet": {
+        "market": "Cartellini Under 5.5",
+        "probability": 99.7
+      },
+      "league": "Serie A (Italia)"
+    },
+    {
+      "match": "Napoli - Inter",
+      "home": "Napoli",
+      "away": "Inter",
+      "exp_goals": "0.93 - 1.15",
+      "exp_corners": 9.4,
+      "exp_cards": 1.4,
+      "all_markets": {
+        "1": 29.3,
+        "X": 29.9,
+        "2": 40.8,
+        "1X": 59.2,
+        "X2": 70.7,
+        "12": 70.1,
+        "Under 2.5": 65.6,
+        "Over 2.5": 34.4,
+        "Corner Over 8.5": 60.2,
+        "Corner Under 11.5": 75.8,
+        "Cartellini Over 3.5": 5.2,
+        "Cartellini Under 5.5": 99.7
+      },
+      "top_bet": {
+        "market": "Cartellini Under 5.5",
+        "probability": 99.7
+      },
+      "league": "Serie A (Italia)"
+    },
+    {
+      "match": "Lyon - Paris SG",
+      "home": "Lyon",
+      "away": "Paris SG",
+      "exp_goals": "1.51 - 2.49",
+      "exp_corners": 9.9,
+      "exp_cards": 1.4,
+      "all_markets": {
+        "1": 22.3,
+        "X": 18.6,
+        "2": 58.9,
+        "1X": 41.0,
+        "X2": 77.5,
+        "12": 81.3,
+        "Under 2.5": 23.7,
+        "Over 2.5": 76.3,
+        "Corner Over 8.5": 65.0,
+        "Corner Under 11.5": 71.3,
+        "Cartellini Over 3.5": 5.0,
+        "Cartellini Under 5.5": 99.7
+      },
+      "top_bet": {
+        "market": "Cartellini Under 5.5",
+        "probability": 99.7
+      },
+      "league": "Ligue 1 (Francia)"
+    },
+    {
+      "match": "Paris SG - Lyon",
+      "home": "Paris SG",
+      "away": "Lyon",
+      "exp_goals": "2.42 - 1.13",
+      "exp_corners": 9.9,
+      "exp_cards": 1.4,
+      "all_markets": {
+        "1": 65.7,
+        "X": 18.0,
+        "2": 16.2,
+        "1X": 83.7,
+        "X2": 34.2,
+        "12": 81.9,
+        "Under 2.5": 31.1,
+        "Over 2.5": 68.9,
+        "Corner Over 8.5": 65.0,
+        "Corner Under 11.5": 71.3,
+        "Cartellini Over 3.5": 5.0,
+        "Cartellini Under 5.5": 99.7
+      },
+      "top_bet": {
+        "market": "Cartellini Under 5.5",
+        "probability": 99.7
+      },
+      "league": "Ligue 1 (Francia)"
+    },
+    {
+      "match": "Napoli - Roma",
+      "home": "Napoli",
+      "away": "Roma",
+      "exp_goals": "1.32 - 0.56",
+      "exp_corners": 8.9,
+      "exp_cards": 1.5,
+      "all_markets": {
+        "1": 55.5,
+        "X": 28.7,
+        "2": 15.7,
+        "1X": 84.3,
+        "X2": 44.5,
+        "12": 71.3,
+        "Under 2.5": 70.8,
+        "Over 2.5": 29.2,
+        "Corner Over 8.5": 53.6,
+        "Corner Under 11.5": 80.9,
+        "Cartellini Over 3.5": 6.2,
+        "Cartellini Under 5.5": 99.6
+      },
+      "top_bet": {
+        "market": "Cartellini Under 5.5",
+        "probability": 99.6
+      },
+      "league": "Serie A (Italia)"
+    },
+    {
+      "match": "Roma - Napoli",
+      "home": "Roma",
+      "away": "Napoli",
+      "exp_goals": "1.07 - 0.92",
+      "exp_corners": 8.9,
+      "exp_cards": 1.5,
+      "all_markets": {
+        "1": 38.6,
+        "X": 30.8,
+        "2": 30.6,
+        "1X": 69.4,
+        "X2": 61.4,
+        "12": 69.2,
+        "Under 2.5": 67.9,
+        "Over 2.5": 32.1,
+        "Corner Over 8.5": 53.6,
+        "Corner Under 11.5": 80.9,
+        "Cartellini Over 3.5": 6.2,
+        "Cartellini Under 5.5": 99.6
+      },
+      "top_bet": {
+        "market": "Cartellini Under 5.5",
+        "probability": 99.6
+      },
+      "league": "Serie A (Italia)"
+    },
+    {
+      "match": "Le Havre - Paris SG",
+      "home": "Le Havre",
+      "away": "Paris SG",
+      "exp_goals": "0.61 - 4.87",
+      "exp_corners": 9.5,
+      "exp_cards": 1.5,
+      "all_markets": {
+        "1": 1.1,
+        "X": 3.0,
+        "2": 89.9,
+        "1X": 4.1,
+        "X2": 92.9,
+        "12": 91.1,
+        "Under 2.5": 8.9,
+        "Over 2.5": 91.1,
+        "Corner Over 8.5": 60.3,
+        "Corner Under 11.5": 75.7,
+        "Cartellini Over 3.5": 6.4,
+        "Cartellini Under 5.5": 99.6
+      },
+      "top_bet": {
+        "market": "Cartellini Under 5.5",
+        "probability": 99.6
+      },
+      "league": "Ligue 1 (Francia)"
+    },
+    {
+      "match": "Monaco - Paris SG",
+      "home": "Monaco",
+      "away": "Paris SG",
+      "exp_goals": "1.55 - 1.9",
+      "exp_corners": 9.2,
+      "exp_cards": 1.5,
+      "all_markets": {
+        "1": 31.8,
+        "X": 22.1,
+        "2": 46.0,
+        "1X": 53.9,
+        "X2": 68.2,
+        "12": 77.9,
+        "Under 2.5": 32.9,
+        "Over 2.5": 67.1,
+        "Corner Over 8.5": 57.7,
+        "Corner Under 11.5": 77.8,
+        "Cartellini Over 3.5": 6.6,
+        "Cartellini Under 5.5": 99.6
+      },
+      "top_bet": {
+        "market": "Cartellini Under 5.5",
+        "probability": 99.6
+      },
+      "league": "Ligue 1 (Francia)"
+    },
+    {
+      "match": "Paris SG - Le Havre",
+      "home": "Paris SG",
+      "away": "Le Havre",
+      "exp_goals": "2.91 - 1.01",
+      "exp_corners": 9.5,
+      "exp_cards": 1.5,
+      "all_markets": {
+        "1": 75.7,
+        "X": 13.8,
+        "2": 10.2,
+        "1X": 89.5,
+        "X2": 24.0,
+        "12": 85.9,
+        "Under 2.5": 25.1,
+        "Over 2.5": 74.9,
+        "Corner Over 8.5": 60.3,
+        "Corner Under 11.5": 75.7,
+        "Cartellini Over 3.5": 6.4,
+        "Cartellini Under 5.5": 99.6
+      },
+      "top_bet": {
+        "market": "Cartellini Under 5.5",
+        "probability": 99.6
+      },
+      "league": "Ligue 1 (Francia)"
+    },
+    {
+      "match": "Paris SG - Monaco",
+      "home": "Paris SG",
+      "away": "Monaco",
+      "exp_goals": "2.42 - 1.01",
+      "exp_corners": 9.2,
+      "exp_cards": 1.5,
+      "all_markets": {
+        "1": 68.4,
+        "X": 17.5,
+        "2": 14.0,
+        "1X": 85.9,
+        "X2": 31.5,
+        "12": 82.4,
+        "Under 2.5": 33.4,
+        "Over 2.5": 66.6,
+        "Corner Over 8.5": 57.7,
+        "Corner Under 11.5": 77.8,
+        "Cartellini Over 3.5": 6.6,
+        "Cartellini Under 5.5": 99.6
+      },
+      "top_bet": {
+        "market": "Cartellini Under 5.5",
+        "probability": 99.6
+      },
+      "league": "Ligue 1 (Francia)"
+    },
+    {
+      "match": "Paris SG - Toulouse",
+      "home": "Paris SG",
+      "away": "Toulouse",
+      "exp_goals": "2.03 - 0.97",
+      "exp_corners": 9.1,
+      "exp_cards": 1.4,
+      "all_markets": {
+        "1": 62.0,
+        "X": 20.8,
+        "2": 17.2,
+        "1X": 82.7,
+        "X2": 38.0,
+        "12": 79.2,
+        "Under 2.5": 42.2,
+        "Over 2.5": 57.8,
+        "Corner Over 8.5": 55.6,
+        "Corner Under 11.5": 79.4,
+        "Cartellini Over 3.5": 5.7,
+        "Cartellini Under 5.5": 99.6
+      },
+      "top_bet": {
+        "market": "Cartellini Under 5.5",
+        "probability": 99.6
+      },
+      "league": "Ligue 1 (Francia)"
+    },
+    {
+      "match": "Toulouse - Paris SG",
+      "home": "Toulouse",
+      "away": "Paris SG",
+      "exp_goals": "0.82 - 2.61",
+      "exp_corners": 9.1,
+      "exp_cards": 1.4,
+      "all_markets": {
+        "1": 9.4,
+        "X": 14.9,
+        "2": 75.6,
+        "1X": 24.2,
+        "X2": 90.5,
+        "12": 85.0,
+        "Under 2.5": 33.4,
+        "Over 2.5": 66.6,
+        "Corner Over 8.5": 55.6,
+        "Corner Under 11.5": 79.4,
+        "Cartellini Over 3.5": 5.7,
+        "Cartellini Under 5.5": 99.6
+      },
+      "top_bet": {
+        "market": "Cartellini Under 5.5",
+        "probability": 99.6
+      },
+      "league": "Ligue 1 (Francia)"
+    },
+    {
+      "match": "Atalanta - Napoli",
+      "home": "Atalanta",
+      "away": "Napoli",
+      "exp_goals": "1.04 - 1.47",
+      "exp_corners": 8.9,
+      "exp_cards": 1.5,
+      "all_markets": {
+        "1": 26.8,
+        "X": 26.2,
+        "2": 47.0,
+        "1X": 53.0,
+        "X2": 73.2,
+        "12": 73.8,
+        "Under 2.5": 54.1,
+        "Over 2.5": 45.9,
+        "Corner Over 8.5": 52.7,
+        "Corner Under 11.5": 81.6,
+        "Cartellini Over 3.5": 6.7,
+        "Cartellini Under 5.5": 99.5
+      },
+      "top_bet": {
+        "market": "Cartellini Under 5.5",
+        "probability": 99.5
+      },
+      "league": "Serie A (Italia)"
+    },
+    {
+      "match": "Bologna - Napoli",
+      "home": "Bologna",
+      "away": "Napoli",
+      "exp_goals": "0.96 - 1.1",
+      "exp_corners": 8.8,
+      "exp_cards": 1.5,
+      "all_markets": {
+        "1": 31.1,
+        "X": 30.2,
+        "2": 38.7,
+        "1X": 61.3,
+        "X2": 68.9,
+        "12": 69.8,
+        "Under 2.5": 66.1,
+        "Over 2.5": 33.9,
+        "Corner Over 8.5": 51.5,
+        "Corner Under 11.5": 82.4,
+        "Cartellini Over 3.5": 6.7,
+        "Cartellini Under 5.5": 99.5
+      },
+      "top_bet": {
+        "market": "Cartellini Under 5.5",
+        "probability": 99.5
+      },
+      "league": "Serie A (Italia)"
+    },
+    {
+      "match": "Genoa - Napoli",
+      "home": "Genoa",
+      "away": "Napoli",
+      "exp_goals": "0.61 - 1.53",
+      "exp_corners": 9.4,
+      "exp_cards": 1.6,
+      "all_markets": {
+        "1": 14.6,
+        "X": 25.6,
+        "2": 59.8,
+        "1X": 40.2,
+        "X2": 85.4,
+        "12": 74.4,
+        "Under 2.5": 63.9,
+        "Over 2.5": 36.1,
+        "Corner Over 8.5": 59.5,
+        "Corner Under 11.5": 76.3,
+        "Cartellini Over 3.5": 7.4,
+        "Cartellini Under 5.5": 99.5
+      },
+      "top_bet": {
+        "market": "Cartellini Under 5.5",
+        "probability": 99.5
+      },
+      "league": "Serie A (Italia)"
+    },
+    {
+      "match": "Juventus - Napoli",
+      "home": "Juventus",
+      "away": "Napoli",
+      "exp_goals": "0.9 - 0.92",
+      "exp_corners": 9.5,
+      "exp_cards": 1.6,
+      "all_markets": {
+        "1": 33.1,
+        "X": 32.7,
+        "2": 34.2,
+        "1X": 65.8,
+        "X2": 66.9,
+        "12": 67.3,
+        "Under 2.5": 72.6,
+        "Over 2.5": 27.4,
+        "Corner Over 8.5": 60.3,
+        "Corner Under 11.5": 75.6,
+        "Cartellini Over 3.5": 7.2,
+        "Cartellini Under 5.5": 99.5
+      },
+      "top_bet": {
+        "market": "Cartellini Under 5.5",
+        "probability": 99.5
+      },
+      "league": "Serie A (Italia)"
+    },
+    {
+      "match": "Lecce - Napoli",
+      "home": "Lecce",
+      "away": "Napoli",
+      "exp_goals": "0.38 - 1.9",
+      "exp_corners": 9.9,
+      "exp_cards": 1.6,
+      "all_markets": {
+        "1": 6.5,
+        "X": 19.0,
+        "2": 74.5,
+        "1X": 25.5,
+        "X2": 93.5,
+        "12": 80.9,
+        "Under 2.5": 60.3,
+        "Over 2.5": 39.7,
+        "Corner Over 8.5": 65.4,
+        "Corner Under 11.5": 71.0,
+        "Cartellini Over 3.5": 7.2,
+        "Cartellini Under 5.5": 99.5
+      },
+      "top_bet": {
+        "market": "Cartellini Under 5.5",
+        "probability": 99.5
+      },
+      "league": "Serie A (Italia)"
+    },
+    {
+      "match": "Napoli - Atalanta",
+      "home": "Napoli",
+      "away": "Atalanta",
+      "exp_goals": "0.86 - 1.24",
+      "exp_corners": 8.9,
+      "exp_cards": 1.5,
+      "all_markets": {
+        "1": 25.7,
+        "X": 29.2,
+        "2": 45.0,
+        "1X": 55.0,
+        "X2": 74.3,
+        "12": 70.8,
+        "Under 2.5": 65.0,
+        "Over 2.5": 35.0,
+        "Corner Over 8.5": 52.7,
+        "Corner Under 11.5": 81.6,
+        "Cartellini Over 3.5": 6.7,
+        "Cartellini Under 5.5": 99.5
+      },
+      "top_bet": {
+        "market": "Cartellini Under 5.5",
+        "probability": 99.5
+      },
+      "league": "Serie A (Italia)"
+    },
+    {
+      "match": "Napoli - Bologna",
+      "home": "Napoli",
+      "away": "Bologna",
+      "exp_goals": "1.92 - 0.71",
+      "exp_corners": 8.8,
+      "exp_cards": 1.5,
+      "all_markets": {
+        "1": 66.1,
+        "X": 20.9,
+        "2": 13.0,
+        "1X": 87.0,
+        "X2": 33.9,
+        "12": 79.0,
+        "Under 2.5": 51.2,
+        "Over 2.5": 48.8,
+        "Corner Over 8.5": 51.5,
+        "Corner Under 11.5": 82.4,
+        "Cartellini Over 3.5": 6.7,
+        "Cartellini Under 5.5": 99.5
+      },
+      "top_bet": {
+        "market": "Cartellini Under 5.5",
+        "probability": 99.5
+      },
+      "league": "Serie A (Italia)"
+    },
+    {
+      "match": "Napoli - Genoa",
+      "home": "Napoli",
+      "away": "Genoa",
+      "exp_goals": "1.59 - 0.47",
+      "exp_corners": 9.4,
+      "exp_cards": 1.6,
+      "all_markets": {
+        "1": 65.1,
+        "X": 24.2,
+        "2": 10.7,
+        "1X": 89.3,
+        "X2": 34.9,
+        "12": 75.8,
+        "Under 2.5": 66.0,
+        "Over 2.5": 34.0,
+        "Corner Over 8.5": 59.5,
+        "Corner Under 11.5": 76.3,
+        "Cartellini Over 3.5": 7.4,
+        "Cartellini Under 5.5": 99.5
+      },
+      "top_bet": {
+        "market": "Cartellini Under 5.5",
+        "probability": 99.5
+      },
+      "league": "Serie A (Italia)"
+    },
+    {
+      "match": "Napoli - Juventus",
+      "home": "Napoli",
+      "away": "Juventus",
+      "exp_goals": "1.32 - 0.8",
+      "exp_corners": 9.5,
+      "exp_cards": 1.6,
+      "all_markets": {
+        "1": 49.1,
+        "X": 28.4,
+        "2": 22.5,
+        "1X": 77.5,
+        "X2": 50.9,
+        "12": 71.6,
+        "Under 2.5": 64.4,
+        "Over 2.5": 35.6,
+        "Corner Over 8.5": 60.3,
+        "Corner Under 11.5": 75.6,
+        "Cartellini Over 3.5": 7.2,
+        "Cartellini Under 5.5": 99.5
+      },
+      "top_bet": {
+        "market": "Cartellini Under 5.5",
+        "probability": 99.5
+      },
+      "league": "Serie A (Italia)"
+    },
+    {
+      "match": "Napoli - Lecce",
+      "home": "Napoli",
+      "away": "Lecce",
+      "exp_goals": "1.79 - 0.41",
+      "exp_corners": 9.9,
+      "exp_cards": 1.6,
+      "all_markets": {
+        "1": 71.2,
+        "X": 20.9,
+        "2": 7.9,
+        "1X": 92.1,
+        "X2": 28.8,
+        "12": 79.1,
+        "Under 2.5": 62.3,
+        "Over 2.5": 37.7,
+        "Corner Over 8.5": 65.4,
+        "Corner Under 11.5": 71.0,
+        "Cartellini Over 3.5": 7.2,
+        "Cartellini Under 5.5": 99.5
+      },
+      "top_bet": {
+        "market": "Cartellini Under 5.5",
+        "probability": 99.5
+      },
+      "league": "Serie A (Italia)"
+    },
+    {
+      "match": "Nice - Paris SG",
+      "home": "Nice",
+      "away": "Paris SG",
+      "exp_goals": "1.55 - 1.78",
+      "exp_corners": 10.0,
+      "exp_cards": 1.6,
+      "all_markets": {
+        "1": 33.9,
+        "X": 22.7,
+        "2": 43.4,
+        "1X": 56.6,
+        "X2": 66.1,
+        "12": 77.2,
+        "Under 2.5": 35.2,
+        "Over 2.5": 64.8,
+        "Corner Over 8.5": 66.2,
+        "Corner Under 11.5": 70.2,
+        "Cartellini Over 3.5": 7.3,
+        "Cartellini Under 5.5": 99.5
+      },
+      "top_bet": {
+        "market": "Cartellini Under 5.5",
+        "probability": 99.5
+      },
+      "league": "Ligue 1 (Francia)"
+    },
+    {
+      "match": "Paris SG - Nice",
+      "home": "Paris SG",
+      "away": "Nice",
+      "exp_goals": "2.52 - 1.13",
+      "exp_corners": 10.0,
+      "exp_cards": 1.6,
+      "all_markets": {
+        "1": 67.4,
+        "X": 17.3,
+        "2": 15.2,
+        "1X": 84.7,
+        "X2": 32.5,
+        "12": 82.6,
+        "Under 2.5": 29.4,
+        "Over 2.5": 70.6,
+        "Corner Over 8.5": 66.2,
+        "Corner Under 11.5": 70.2,
+        "Cartellini Over 3.5": 7.3,
+        "Cartellini Under 5.5": 99.5
+      },
+      "top_bet": {
+        "market": "Cartellini Under 5.5",
+        "probability": 99.5
+      },
+      "league": "Ligue 1 (Francia)"
+    },
+    {
+      "match": "Cagliari - Napoli",
+      "home": "Cagliari",
+      "away": "Napoli",
+      "exp_goals": "0.69 - 1.72",
+      "exp_corners": 9.6,
+      "exp_cards": 1.6,
+      "all_markets": {
+        "1": 14.7,
+        "X": 23.3,
+        "2": 61.9,
+        "1X": 38.1,
+        "X2": 85.2,
+        "12": 76.7,
+        "Under 2.5": 56.7,
+        "Over 2.5": 43.3,
+        "Corner Over 8.5": 61.8,
+        "Corner Under 11.5": 74.4,
+        "Cartellini Over 3.5": 7.6,
+        "Cartellini Under 5.5": 99.4
+      },
+      "top_bet": {
+        "market": "Cartellini Under 5.5",
+        "probability": 99.4
+      },
+      "league": "Serie A (Italia)"
+    },
+    {
+      "match": "Empoli - Napoli",
+      "home": "Empoli",
+      "away": "Napoli",
+      "exp_goals": "0.29 - 1.59",
+      "exp_corners": 9.5,
+      "exp_cards": 1.6,
+      "all_markets": {
+        "1": 6.3,
+        "X": 23.1,
+        "2": 70.6,
+        "1X": 29.4,
+        "X2": 93.7,
+        "12": 76.9,
+        "Under 2.5": 70.9,
+        "Over 2.5": 29.1,
+        "Corner Over 8.5": 60.7,
+        "Corner Under 11.5": 75.3,
+        "Cartellini Over 3.5": 8.0,
+        "Cartellini Under 5.5": 99.4
+      },
+      "top_bet": {
+        "market": "Cartellini Under 5.5",
+        "probability": 99.4
+      },
+      "league": "Serie A (Italia)"
+    },
+    {
+      "match": "Napoli - Cagliari",
+      "home": "Napoli",
+      "away": "Cagliari",
+      "exp_goals": "1.85 - 0.47",
+      "exp_corners": 9.6,
+      "exp_cards": 1.6,
+      "all_markets": {
+        "1": 71.0,
+        "X": 20.4,
+        "2": 8.6,
+        "1X": 91.4,
+        "X2": 29.0,
+        "12": 79.6,
+        "Under 2.5": 58.9,
+        "Over 2.5": 41.1,
+        "Corner Over 8.5": 61.8,
+        "Corner Under 11.5": 74.4,
+        "Cartellini Over 3.5": 7.6,
+        "Cartellini Under 5.5": 99.4
+      },
+      "top_bet": {
+        "market": "Cartellini Under 5.5",
+        "probability": 99.4
+      },
+      "league": "Serie A (Italia)"
+    },
+    {
+      "match": "Napoli - Empoli",
+      "home": "Napoli",
+      "away": "Empoli",
+      "exp_goals": "2.18 - 0.68",
+      "exp_corners": 9.5,
+      "exp_cards": 1.6,
+      "all_markets": {
+        "1": 71.9,
+        "X": 17.9,
+        "2": 10.1,
+        "1X": 89.8,
+        "X2": 28.0,
+        "12": 82.1,
+        "Under 2.5": 45.5,
+        "Over 2.5": 54.5,
+        "Corner Over 8.5": 60.7,
+        "Corner Under 11.5": 75.3,
+        "Cartellini Over 3.5": 8.0,
+        "Cartellini Under 5.5": 99.4
+      },
+      "top_bet": {
+        "market": "Cartellini Under 5.5",
+        "probability": 99.4
+      },
+      "league": "Serie A (Italia)"
+    },
+    {
+      "match": "Bayern Munich - Ein Frankfurt",
+      "home": "Bayern Munich",
+      "away": "Ein Frankfurt",
+      "exp_goals": "2.7 - 0.99",
+      "exp_corners": 9.5,
+      "exp_cards": 1.6,
+      "all_markets": {
+        "1": 73.2,
+        "X": 15.2,
+        "2": 11.4,
+        "1X": 88.4,
+        "X2": 26.6,
+        "12": 84.6,
+        "Under 2.5": 28.7,
+        "Over 2.5": 71.3,
+        "Corner Over 8.5": 61.0,
+        "Corner Under 11.5": 75.0,
+        "Cartellini Over 3.5": 7.5,
+        "Cartellini Under 5.5": 99.4
+      },
+      "top_bet": {
+        "market": "Cartellini Under 5.5",
+        "probability": 99.4
+      },
+      "league": "Bundesliga (Germania)"
+    },
+    {
+      "match": "Bayern Munich - Freiburg",
+      "home": "Bayern Munich",
+      "away": "Freiburg",
+      "exp_goals": "3.04 - 0.63",
+      "exp_corners": 8.6,
+      "exp_cards": 1.6,
+      "all_markets": {
+        "1": 84.5,
+        "X": 10.3,
+        "2": 4.8,
+        "1X": 94.8,
+        "X2": 15.1,
+        "12": 89.3,
+        "Under 2.5": 29.2,
+        "Over 2.5": 70.8,
+        "Corner Over 8.5": 49.3,
+        "Corner Under 11.5": 83.8,
+        "Cartellini Over 3.5": 7.9,
+        "Cartellini Under 5.5": 99.4
+      },
+      "top_bet": {
+        "market": "Cartellini Under 5.5",
+        "probability": 99.4
+      },
+      "league": "Bundesliga (Germania)"
+    },
+    {
+      "match": "Bayern Munich - M'gladbach",
+      "home": "Bayern Munich",
+      "away": "M'gladbach",
+      "exp_goals": "3.49 - 0.96",
+      "exp_corners": 9.5,
+      "exp_cards": 1.6,
+      "all_markets": {
+        "1": 82.8,
+        "X": 9.9,
+        "2": 6.3,
+        "1X": 92.7,
+        "X2": 16.2,
+        "12": 89.2,
+        "Under 2.5": 18.0,
+        "Over 2.5": 82.0,
+        "Corner Over 8.5": 60.6,
+        "Corner Under 11.5": 75.4,
+        "Cartellini Over 3.5": 7.9,
+        "Cartellini Under 5.5": 99.4
+      },
+      "top_bet": {
+        "market": "Cartellini Under 5.5",
+        "probability": 99.4
+      },
+      "league": "Bundesliga (Germania)"
+    },
+    {
+      "match": "Ein Frankfurt - Bayern Munich",
+      "home": "Ein Frankfurt",
+      "away": "Bayern Munich",
+      "exp_goals": "1.39 - 2.33",
+      "exp_corners": 9.5,
+      "exp_cards": 1.6,
+      "all_markets": {
+        "1": 22.1,
+        "X": 19.4,
+        "2": 58.4,
+        "1X": 41.6,
+        "X2": 77.8,
+        "12": 80.5,
+        "Under 2.5": 28.2,
+        "Over 2.5": 71.8,
+        "Corner Over 8.5": 61.0,
+        "Corner Under 11.5": 75.0,
+        "Cartellini Over 3.5": 7.5,
+        "Cartellini Under 5.5": 99.4
+      },
+      "top_bet": {
+        "market": "Cartellini Under 5.5",
+        "probability": 99.4
+      },
+      "league": "Bundesliga (Germania)"
+    },
+    {
+      "match": "Freiburg - Bayern Munich",
+      "home": "Freiburg",
+      "away": "Bayern Munich",
+      "exp_goals": "1.09 - 2.75",
+      "exp_corners": 8.6,
+      "exp_cards": 1.6,
+      "all_markets": {
+        "1": 12.4,
+        "X": 15.3,
+        "2": 72.1,
+        "1X": 27.7,
+        "X2": 87.4,
+        "12": 84.5,
+        "Under 2.5": 26.3,
+        "Over 2.5": 73.7,
+        "Corner Over 8.5": 49.3,
+        "Corner Under 11.5": 83.8,
+        "Cartellini Over 3.5": 7.9,
+        "Cartellini Under 5.5": 99.4
+      },
+      "top_bet": {
+        "market": "Cartellini Under 5.5",
+        "probability": 99.4
+      },
+      "league": "Bundesliga (Germania)"
+    },
+    {
+      "match": "M'gladbach - Bayern Munich",
+      "home": "M'gladbach",
+      "away": "Bayern Munich",
+      "exp_goals": "0.98 - 2.75",
+      "exp_corners": 9.5,
+      "exp_cards": 1.6,
+      "all_markets": {
+        "1": 10.9,
+        "X": 14.8,
+        "2": 74.1,
+        "1X": 25.6,
+        "X2": 88.9,
+        "12": 85.0,
+        "Under 2.5": 27.9,
+        "Over 2.5": 72.1,
+        "Corner Over 8.5": 60.6,
+        "Corner Under 11.5": 75.4,
+        "Cartellini Over 3.5": 7.9,
+        "Cartellini Under 5.5": 99.4
+      },
+      "top_bet": {
+        "market": "Cartellini Under 5.5",
+        "probability": 99.4
+      },
+      "league": "Bundesliga (Germania)"
+    },
+    {
+      "match": "Angers - Lyon",
+      "home": "Angers",
+      "away": "Lyon",
+      "exp_goals": "0.97 - 2.33",
+      "exp_corners": 9.3,
+      "exp_cards": 1.6,
+      "all_markets": {
+        "1": 14.1,
+        "X": 18.1,
+        "2": 67.8,
+        "1X": 32.1,
+        "X2": 85.9,
+        "12": 81.9,
+        "Under 2.5": 35.9,
+        "Over 2.5": 64.1,
+        "Corner Over 8.5": 58.2,
+        "Corner Under 11.5": 77.4,
+        "Cartellini Over 3.5": 7.9,
+        "Cartellini Under 5.5": 99.4
+      },
+      "top_bet": {
+        "market": "Cartellini Under 5.5",
+        "probability": 99.4
+      },
+      "league": "Ligue 1 (Francia)"
+    },
+    {
+      "match": "Brest - Paris SG",
+      "home": "Brest",
+      "away": "Paris SG",
+      "exp_goals": "1.27 - 2.49",
+      "exp_corners": 9.4,
+      "exp_cards": 1.6,
+      "all_markets": {
+        "1": 17.9,
+        "X": 18.0,
+        "2": 64.1,
+        "1X": 35.8,
+        "X2": 82.0,
+        "12": 81.9,
+        "Under 2.5": 27.5,
+        "Over 2.5": 72.5,
+        "Corner Over 8.5": 59.0,
+        "Corner Under 11.5": 76.7,
+        "Cartellini Over 3.5": 7.9,
+        "Cartellini Under 5.5": 99.4
+      },
+      "top_bet": {
+        "market": "Cartellini Under 5.5",
+        "probability": 99.4
+      },
+      "league": "Ligue 1 (Francia)"
+    },
+    {
+      "match": "Lyon - Angers",
+      "home": "Lyon",
+      "away": "Angers",
+      "exp_goals": "1.59 - 0.74",
+      "exp_corners": 9.3,
+      "exp_cards": 1.6,
+      "all_markets": {
+        "1": 57.7,
+        "X": 25.0,
+        "2": 17.3,
+        "1X": 82.7,
+        "X2": 42.3,
+        "12": 75.0,
+        "Under 2.5": 58.7,
+        "Over 2.5": 41.3,
+        "Corner Over 8.5": 58.2,
+        "Corner Under 11.5": 77.4,
+        "Cartellini Over 3.5": 7.9,
+        "Cartellini Under 5.5": 99.4
+      },
+      "top_bet": {
+        "market": "Cartellini Under 5.5",
+        "probability": 99.4
+      },
+      "league": "Ligue 1 (Francia)"
+    },
+    {
+      "match": "Paris SG - Brest",
+      "home": "Paris SG",
+      "away": "Brest",
+      "exp_goals": "3.68 - 0.85",
+      "exp_corners": 9.4,
+      "exp_cards": 1.6,
+      "all_markets": {
+        "1": 85.9,
+        "X": 8.2,
+        "2": 4.6,
+        "1X": 94.1,
+        "X2": 12.8,
+        "12": 90.5,
+        "Under 2.5": 17.0,
+        "Over 2.5": 83.0,
+        "Corner Over 8.5": 59.0,
+        "Corner Under 11.5": 76.7,
+        "Cartellini Over 3.5": 7.9,
+        "Cartellini Under 5.5": 99.4
+      },
+      "top_bet": {
+        "market": "Cartellini Under 5.5",
+        "probability": 99.4
+      },
+      "league": "Ligue 1 (Francia)"
+    },
+    {
+      "match": "Paris SG - Reims",
+      "home": "Paris SG",
+      "away": "Reims",
+      "exp_goals": "2.13 - 0.65",
+      "exp_corners": 9.7,
+      "exp_cards": 1.6,
+      "all_markets": {
+        "1": 71.7,
+        "X": 18.2,
+        "2": 10.0,
+        "1X": 90.0,
+        "X2": 28.2,
+        "12": 81.7,
+        "Under 2.5": 47.5,
+        "Over 2.5": 52.5,
+        "Corner Over 8.5": 63.0,
+        "Corner Under 11.5": 73.3,
+        "Cartellini Over 3.5": 8.1,
+        "Cartellini Under 5.5": 99.4
+      },
+      "top_bet": {
+        "market": "Cartellini Under 5.5",
+        "probability": 99.4
+      },
+      "league": "Ligue 1 (Francia)"
+    },
+    {
+      "match": "Paris SG - Rennes",
+      "home": "Paris SG",
+      "away": "Rennes",
+      "exp_goals": "3.2 - 1.05",
+      "exp_corners": 9.2,
+      "exp_cards": 1.6,
+      "all_markets": {
+        "1": 78.5,
+        "X": 12.1,
+        "2": 8.8,
+        "1X": 90.6,
+        "X2": 21.0,
+        "12": 87.3,
+        "Under 2.5": 20.4,
+        "Over 2.5": 79.6,
+        "Corner Over 8.5": 56.7,
+        "Corner Under 11.5": 78.6,
+        "Cartellini Over 3.5": 7.7,
+        "Cartellini Under 5.5": 99.4
+      },
+      "top_bet": {
+        "market": "Cartellini Under 5.5",
+        "probability": 99.4
+      },
+      "league": "Ligue 1 (Francia)"
+    },
+    {
+      "match": "Paris SG - St Etienne",
+      "home": "Paris SG",
+      "away": "St Etienne",
+      "exp_goals": "4.26 - 0.61",
+      "exp_corners": 9.7,
+      "exp_cards": 1.6,
+      "all_markets": {
+        "1": 90.7,
+        "X": 4.5,
+        "2": 1.8,
+        "1X": 95.2,
+        "X2": 6.2,
+        "12": 92.5,
+        "Under 2.5": 13.6,
+        "Over 2.5": 86.4,
+        "Corner Over 8.5": 63.5,
+        "Corner Under 11.5": 72.8,
+        "Cartellini Over 3.5": 7.7,
+        "Cartellini Under 5.5": 99.4
+      },
+      "top_bet": {
+        "market": "Cartellini Under 5.5",
+        "probability": 99.4
+      },
+      "league": "Ligue 1 (Francia)"
+    },
+    {
+      "match": "Reims - Paris SG",
+      "home": "Reims",
+      "away": "Paris SG",
+      "exp_goals": "0.7 - 2.97",
+      "exp_corners": 9.7,
+      "exp_cards": 1.6,
+      "all_markets": {
+        "1": 5.8,
+        "X": 11.3,
+        "2": 82.5,
+        "1X": 17.1,
+        "X2": 93.8,
+        "12": 88.4,
+        "Under 2.5": 29.2,
+        "Over 2.5": 70.8,
+        "Corner Over 8.5": 63.0,
+        "Corner Under 11.5": 73.3,
+        "Cartellini Over 3.5": 8.1,
+        "Cartellini Under 5.5": 99.4
+      },
+      "top_bet": {
+        "market": "Cartellini Under 5.5",
+        "probability": 99.4
+      },
+      "league": "Ligue 1 (Francia)"
+    },
+    {
+      "match": "Rennes - Paris SG",
+      "home": "Rennes",
+      "away": "Paris SG",
+      "exp_goals": "1.02 - 2.02",
+      "exp_corners": 9.2,
+      "exp_cards": 1.6,
+      "all_markets": {
+        "1": 18.5,
+        "X": 21.1,
+        "2": 60.4,
+        "1X": 39.6,
+        "X2": 81.5,
+        "12": 78.9,
+        "Under 2.5": 41.4,
+        "Over 2.5": 58.6,
+        "Corner Over 8.5": 56.7,
+        "Corner Under 11.5": 78.6,
+        "Cartellini Over 3.5": 7.7,
+        "Cartellini Under 5.5": 99.4
+      },
+      "top_bet": {
+        "market": "Cartellini Under 5.5",
+        "probability": 99.4
+      },
+      "league": "Ligue 1 (Francia)"
+    },
+    {
+      "match": "St Etienne - Paris SG",
+      "home": "St Etienne",
+      "away": "Paris SG",
+      "exp_goals": "0.98 - 3.92",
+      "exp_corners": 9.7,
+      "exp_cards": 1.6,
+      "all_markets": {
+        "1": 4.8,
+        "X": 7.9,
+        "2": 85.4,
+        "1X": 12.7,
+        "X2": 93.2,
+        "12": 90.2,
+        "Under 2.5": 13.3,
+        "Over 2.5": 86.7,
+        "Corner Over 8.5": 63.5,
+        "Corner Under 11.5": 72.8,
+        "Cartellini Over 3.5": 7.7,
+        "Cartellini Under 5.5": 99.4
+      },
+      "top_bet": {
+        "market": "Cartellini Under 5.5",
+        "probability": 99.4
+      },
+      "league": "Ligue 1 (Francia)"
+    },
+    {
+      "match": "Inter - Roma",
+      "home": "Inter",
+      "away": "Roma",
+      "exp_goals": "1.65 - 0.91",
+      "exp_corners": 9.0,
+      "exp_cards": 1.6,
+      "all_markets": {
+        "1": 55.0,
+        "X": 24.4,
+        "2": 20.5,
+        "1X": 79.5,
+        "X2": 45.0,
+        "12": 75.6,
+        "Under 2.5": 52.9,
+        "Over 2.5": 47.1,
+        "Corner Over 8.5": 54.3,
+        "Corner Under 11.5": 80.4,
+        "Cartellini Over 3.5": 8.5,
+        "Cartellini Under 5.5": 99.3
+      },
+      "top_bet": {
+        "market": "Cartellini Under 5.5",
+        "probability": 99.3
+      },
+      "league": "Serie A (Italia)"
+    },
+    {
+      "match": "Milan - Napoli",
+      "home": "Milan",
+      "away": "Napoli",
+      "exp_goals": "0.87 - 0.98",
+      "exp_corners": 9.6,
+      "exp_cards": 1.7,
+      "all_markets": {
+        "1": 30.8,
+        "X": 32.3,
+        "2": 36.9,
+        "1X": 63.1,
+        "X2": 69.2,
+        "12": 67.7,
+        "Under 2.5": 71.8,
+        "Over 2.5": 28.2,
+        "Corner Over 8.5": 62.6,
+        "Corner Under 11.5": 73.6,
+        "Cartellini Over 3.5": 8.7,
+        "Cartellini Under 5.5": 99.3
+      },
+      "top_bet": {
+        "market": "Cartellini Under 5.5",
+        "probability": 99.3
+      },
+      "league": "Serie A (Italia)"
+    },
+    {
+      "match": "Napoli - Milan",
+      "home": "Napoli",
+      "away": "Milan",
+      "exp_goals": "1.79 - 0.91",
+      "exp_corners": 9.6,
+      "exp_cards": 1.7,
+      "all_markets": {
+        "1": 57.9,
+        "X": 23.1,
+        "2": 19.0,
+        "1X": 81.0,
+        "X2": 42.1,
+        "12": 76.9,
+        "Under 2.5": 49.3,
+        "Over 2.5": 50.7,
+        "Corner Over 8.5": 62.6,
+        "Corner Under 11.5": 73.6,
+        "Cartellini Over 3.5": 8.7,
+        "Cartellini Under 5.5": 99.3
+      },
+      "top_bet": {
+        "market": "Cartellini Under 5.5",
+        "probability": 99.3
+      },
+      "league": "Serie A (Italia)"
+    },
+    {
+      "match": "Napoli - Venezia",
+      "home": "Napoli",
+      "away": "Venezia",
+      "exp_goals": "2.25 - 0.44",
+      "exp_corners": 9.5,
+      "exp_cards": 1.7,
+      "all_markets": {
+        "1": 78.8,
+        "X": 15.4,
+        "2": 5.8,
+        "1X": 94.1,
+        "X2": 21.2,
+        "12": 84.6,
+        "Under 2.5": 49.5,
+        "Over 2.5": 50.5,
+        "Corner Over 8.5": 61.0,
+        "Corner Under 11.5": 75.1,
+        "Cartellini Over 3.5": 8.7,
+        "Cartellini Under 5.5": 99.3
+      },
+      "top_bet": {
+        "market": "Cartellini Under 5.5",
+        "probability": 99.3
+      },
+      "league": "Serie A (Italia)"
     }
   ]
 }
