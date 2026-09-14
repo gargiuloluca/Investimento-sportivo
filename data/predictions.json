@@ -1,0 +1,34 @@
+{
+  "last_update": "In attesa del primo aggiornamento GitHub Actions",
+  "total_analyzed": 1,
+  "high_prob_count": 1,
+  "matches": [
+    {
+      "league": "Serie A (Italia)",
+      "match": "Inter - Monza",
+      "home": "Inter",
+      "away": "Monza",
+      "exp_goals": "2.45 - 0.55",
+      "exp_corners": 10.2,
+      "exp_cards": 3.8,
+      "all_markets": {
+        "1": 78.4,
+        "X": 14.2,
+        "2": 7.4,
+        "1X": 92.6,
+        "X2": 21.6,
+        "12": 85.8,
+        "Under 2.5": 42.1,
+        "Over 2.5": 57.9,
+        "Corner Over 8.5": 71.4,
+        "Corner Under 11.5": 68.2,
+        "Cartellini Over 3.5": 54.0,
+        "Cartellini Under 5.5": 82.5
+      },
+      "top_bet": {
+        "market": "1X",
+        "probability": 92.6
+      }
+    }
+  ]
+}
