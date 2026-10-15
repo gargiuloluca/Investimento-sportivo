@@ -1,5 +1,5 @@
 {
-  "last_update": "14/10/2026 12:14 UTC",
+  "last_update": "15/10/2026 11:55 UTC",
   "multipla_consigliata": {
     "legs": [
       {
@@ -27,6 +27,71 @@
     "total_odds": 2.2
   },
   "matches": [
+    {
+      "league": "Premier League (Inghilterra)",
+      "match": "Newcastle - Nott'm Forest(Prossimo Turno )",
+      "home": "Newcastle",
+      "away": "Nott'm Forest",
+      "exp_goals": "2.2 - 1.25",
+      "exp_corners": 10.8,
+      "exp_cards": 2.1,
+      "all_markets": {
+        "1": {
+          "prob": 58.9,
+          "odds": 1.7
+        },
+        "X": {
+          "prob": 20.1,
+          "odds": 4.97
+        },
+        "2": {
+          "prob": 20.9,
+          "odds": 4.77
+        },
+        "1X": {
+          "prob": 79.0,
+          "odds": 1.27
+        },
+        "X2": {
+          "prob": 41.1,
+          "odds": 2.44
+        },
+        "12": {
+          "prob": 79.8,
+          "odds": 1.25
+        },
+        "Under 2.5": {
+          "prob": 33.1,
+          "odds": 3.02
+        },
+        "Over 2.5": {
+          "prob": 66.9,
+          "odds": 1.5
+        },
+        "Corner Over 8.5": {
+          "prob": 75.0,
+          "odds": 1.33
+        },
+        "Corner Under 11.5": {
+          "prob": 60.3,
+          "odds": 1.66
+        },
+        "Cartellini Over 3.5": {
+          "prob": 16.0,
+          "odds": 6.26
+        }
+      },
+      "top_single": {
+        "market": "Over 2.5",
+        "prob": 66.9,
+        "odds": 1.5
+      },
+      "top_multi_component": {
+        "market": "Corner Over 8.5",
+        "prob": 75.0,
+        "odds": 1.33
+      }
+    },
     {
       "league": "La Liga (Spagna)",
       "match": "Ath Madrid - Barcelona(Prossimo Turno )",
@@ -353,6 +418,266 @@
       }
     },
     {
+      "league": "Premier League (Inghilterra)",
+      "match": "Bournemouth - Brentford(Prossimo Turno )",
+      "home": "Bournemouth",
+      "away": "Brentford",
+      "exp_goals": "0.93 - 0.81",
+      "exp_corners": 11.0,
+      "exp_cards": 2.2,
+      "all_markets": {
+        "1": {
+          "prob": 36.4,
+          "odds": 2.74
+        },
+        "X": {
+          "prob": 33.5,
+          "odds": 2.98
+        },
+        "2": {
+          "prob": 30.0,
+          "odds": 3.33
+        },
+        "1X": {
+          "prob": 70.0,
+          "odds": 1.43
+        },
+        "X2": {
+          "prob": 63.6,
+          "odds": 1.57
+        },
+        "12": {
+          "prob": 66.5,
+          "odds": 1.5
+        },
+        "Under 2.5": {
+          "prob": 74.7,
+          "odds": 1.34
+        },
+        "Over 2.5": {
+          "prob": 25.3,
+          "odds": 3.96
+        },
+        "Corner Over 8.5": {
+          "prob": 76.4,
+          "odds": 1.31
+        },
+        "Corner Under 11.5": {
+          "prob": 58.4,
+          "odds": 1.71
+        },
+        "Cartellini Over 3.5": {
+          "prob": 18.0,
+          "odds": 5.55
+        }
+      },
+      "top_single": {
+        "market": "12",
+        "prob": 66.5,
+        "odds": 1.5
+      },
+      "top_multi_component": {
+        "market": "Corner Over 8.5",
+        "prob": 76.4,
+        "odds": 1.31
+      }
+    },
+    {
+      "league": "Premier League (Inghilterra)",
+      "match": "Crystal Palace - Everton(Prossimo Turno )",
+      "home": "Crystal Palace",
+      "away": "Everton",
+      "exp_goals": "0.92 - 0.81",
+      "exp_corners": 10.2,
+      "exp_cards": 2.2,
+      "all_markets": {
+        "1": {
+          "prob": 36.3,
+          "odds": 2.75
+        },
+        "X": {
+          "prob": 33.6,
+          "odds": 2.98
+        },
+        "2": {
+          "prob": 30.1,
+          "odds": 3.32
+        },
+        "1X": {
+          "prob": 69.9,
+          "odds": 1.43
+        },
+        "X2": {
+          "prob": 63.7,
+          "odds": 1.57
+        },
+        "12": {
+          "prob": 66.4,
+          "odds": 1.51
+        },
+        "Under 2.5": {
+          "prob": 74.8,
+          "odds": 1.34
+        },
+        "Over 2.5": {
+          "prob": 25.2,
+          "odds": 3.97
+        },
+        "Corner Over 8.5": {
+          "prob": 68.6,
+          "odds": 1.46
+        },
+        "Corner Under 11.5": {
+          "prob": 67.7,
+          "odds": 1.48
+        },
+        "Cartellini Over 3.5": {
+          "prob": 18.0,
+          "odds": 5.55
+        }
+      },
+      "top_single": {
+        "market": "12",
+        "prob": 66.4,
+        "odds": 1.51
+      },
+      "top_multi_component": {
+        "market": "Under 2.5",
+        "prob": 74.8,
+        "odds": 1.34
+      }
+    },
+    {
+      "league": "Premier League (Inghilterra)",
+      "match": "Man City - Man United(Prossimo Turno )",
+      "home": "Man City",
+      "away": "Man United",
+      "exp_goals": "2.05 - 0.94",
+      "exp_corners": 10.0,
+      "exp_cards": 2.0,
+      "all_markets": {
+        "1": {
+          "prob": 62.9,
+          "odds": 1.59
+        },
+        "X": {
+          "prob": 20.6,
+          "odds": 4.87
+        },
+        "2": {
+          "prob": 16.5,
+          "odds": 6.06
+        },
+        "1X": {
+          "prob": 83.5,
+          "odds": 1.2
+        },
+        "X2": {
+          "prob": 37.1,
+          "odds": 2.7
+        },
+        "12": {
+          "prob": 79.4,
+          "odds": 1.26
+        },
+        "Under 2.5": {
+          "prob": 42.6,
+          "odds": 2.35
+        },
+        "Over 2.5": {
+          "prob": 57.4,
+          "odds": 1.74
+        },
+        "Corner Over 8.5": {
+          "prob": 66.4,
+          "odds": 1.51
+        },
+        "Corner Under 11.5": {
+          "prob": 70.0,
+          "odds": 1.43
+        },
+        "Cartellini Over 3.5": {
+          "prob": 13.8,
+          "odds": 7.24
+        }
+      },
+      "top_single": {
+        "market": "Corner Over 8.5",
+        "prob": 66.4,
+        "odds": 1.51
+      },
+      "top_multi_component": {
+        "market": "Corner Under 11.5",
+        "prob": 70.0,
+        "odds": 1.43
+      }
+    },
+    {
+      "league": "Premier League (Inghilterra)",
+      "match": "West Ham - Wolves(Prossimo Turno )",
+      "home": "West Ham",
+      "away": "Wolves",
+      "exp_goals": "1.56 - 1.79",
+      "exp_corners": 9.6,
+      "exp_cards": 2.1,
+      "all_markets": {
+        "1": {
+          "prob": 33.8,
+          "odds": 2.96
+        },
+        "X": {
+          "prob": 22.7,
+          "odds": 4.41
+        },
+        "2": {
+          "prob": 43.5,
+          "odds": 2.3
+        },
+        "1X": {
+          "prob": 56.5,
+          "odds": 1.77
+        },
+        "X2": {
+          "prob": 66.2,
+          "odds": 1.51
+        },
+        "12": {
+          "prob": 77.3,
+          "odds": 1.29
+        },
+        "Under 2.5": {
+          "prob": 35.0,
+          "odds": 2.86
+        },
+        "Over 2.5": {
+          "prob": 65.0,
+          "odds": 1.54
+        },
+        "Corner Over 8.5": {
+          "prob": 62.1,
+          "odds": 1.61
+        },
+        "Corner Under 11.5": {
+          "prob": 74.1,
+          "odds": 1.35
+        },
+        "Cartellini Over 3.5": {
+          "prob": 16.7,
+          "odds": 5.97
+        }
+      },
+      "top_single": {
+        "market": "X2",
+        "prob": 66.2,
+        "odds": 1.51
+      },
+      "top_multi_component": {
+        "market": "Corner Under 11.5",
+        "prob": 74.1,
+        "odds": 1.35
+      }
+    },
+    {
       "league": "La Liga (Spagna)",
       "match": "Vallecano - Villarreal(Prossimo Turno )",
       "home": "Vallecano",
@@ -613,6 +938,71 @@
       }
     },
     {
+      "league": "Ligue 1 (Francia)",
+      "match": "Nantes - Nice(Prossimo Turno )",
+      "home": "Nantes",
+      "away": "Nice",
+      "exp_goals": "1.06 - 1.27",
+      "exp_corners": 10.3,
+      "exp_cards": 2.1,
+      "all_markets": {
+        "1": {
+          "prob": 30.9,
+          "odds": 3.24
+        },
+        "X": {
+          "prob": 27.9,
+          "odds": 3.58
+        },
+        "2": {
+          "prob": 41.2,
+          "odds": 2.43
+        },
+        "1X": {
+          "prob": 58.8,
+          "odds": 1.7
+        },
+        "X2": {
+          "prob": 69.1,
+          "odds": 1.45
+        },
+        "12": {
+          "prob": 72.1,
+          "odds": 1.39
+        },
+        "Under 2.5": {
+          "prob": 58.6,
+          "odds": 1.71
+        },
+        "Over 2.5": {
+          "prob": 41.4,
+          "odds": 2.42
+        },
+        "Corner Over 8.5": {
+          "prob": 70.4,
+          "odds": 1.42
+        },
+        "Corner Under 11.5": {
+          "prob": 65.8,
+          "odds": 1.52
+        },
+        "Cartellini Over 3.5": {
+          "prob": 17.0,
+          "odds": 5.87
+        }
+      },
+      "top_single": {
+        "market": "Corner Under 11.5",
+        "prob": 65.8,
+        "odds": 1.52
+      },
+      "top_multi_component": {
+        "market": "12",
+        "prob": 72.1,
+        "odds": 1.39
+      }
+    },
+    {
       "league": "Serie B (Italia)",
       "match": "Carrarese - Catanzaro(Prossimo Turno )",
       "home": "Carrarese",
@@ -678,6 +1068,331 @@
       }
     },
     {
+      "league": "Premier League (Inghilterra)",
+      "match": "Southampton - Tottenham(Prossimo Turno )",
+      "home": "Southampton",
+      "away": "Tottenham",
+      "exp_goals": "0.71 - 2.66",
+      "exp_corners": 11.1,
+      "exp_cards": 2.2,
+      "all_markets": {
+        "1": {
+          "prob": 7.6,
+          "odds": 13.14
+        },
+        "X": {
+          "prob": 13.8,
+          "odds": 7.26
+        },
+        "2": {
+          "prob": 78.4,
+          "odds": 1.27
+        },
+        "1X": {
+          "prob": 21.4,
+          "odds": 4.67
+        },
+        "X2": {
+          "prob": 92.2,
+          "odds": 1.08
+        },
+        "12": {
+          "prob": 86.0,
+          "odds": 1.16
+        },
+        "Under 2.5": {
+          "prob": 34.5,
+          "odds": 2.9
+        },
+        "Over 2.5": {
+          "prob": 65.5,
+          "odds": 1.53
+        },
+        "Corner Over 8.5": {
+          "prob": 78.1,
+          "odds": 1.28
+        },
+        "Corner Under 11.5": {
+          "prob": 56.2,
+          "odds": 1.78
+        },
+        "Cartellini Over 3.5": {
+          "prob": 18.0,
+          "odds": 5.55
+        }
+      },
+      "top_single": {
+        "market": "Over 2.5",
+        "prob": 65.5,
+        "odds": 1.53
+      },
+      "top_multi_component": {
+        "market": "Over 2.5",
+        "prob": 65.5,
+        "odds": 1.53
+      }
+    },
+    {
+      "league": "Premier League (Inghilterra)",
+      "match": "Arsenal - Aston Villa(Prossimo Turno )",
+      "home": "Arsenal",
+      "away": "Aston Villa",
+      "exp_goals": "1.99 - 0.8",
+      "exp_corners": 10.2,
+      "exp_cards": 2.1,
+      "all_markets": {
+        "1": {
+          "prob": 65.3,
+          "odds": 1.53
+        },
+        "X": {
+          "prob": 20.6,
+          "odds": 4.86
+        },
+        "2": {
+          "prob": 14.1,
+          "odds": 7.08
+        },
+        "1X": {
+          "prob": 85.8,
+          "odds": 1.16
+        },
+        "X2": {
+          "prob": 34.7,
+          "odds": 2.88
+        },
+        "12": {
+          "prob": 79.4,
+          "odds": 1.26
+        },
+        "Under 2.5": {
+          "prob": 47.4,
+          "odds": 2.11
+        },
+        "Over 2.5": {
+          "prob": 52.6,
+          "odds": 1.9
+        },
+        "Corner Over 8.5": {
+          "prob": 68.6,
+          "odds": 1.46
+        },
+        "Corner Under 11.5": {
+          "prob": 67.7,
+          "odds": 1.48
+        },
+        "Cartellini Over 3.5": {
+          "prob": 15.2,
+          "odds": 6.56
+        }
+      },
+      "top_single": {
+        "market": "1",
+        "prob": 65.3,
+        "odds": 1.53
+      },
+      "top_multi_component": {
+        "market": "Corner Over 8.5",
+        "prob": 68.6,
+        "odds": 1.46
+      }
+    },
+    {
+      "league": "Premier League (Inghilterra)",
+      "match": "Brighton - Chelsea(Prossimo Turno )",
+      "home": "Brighton",
+      "away": "Chelsea",
+      "exp_goals": "1.37 - 1.47",
+      "exp_corners": 9.9,
+      "exp_cards": 2.4,
+      "all_markets": {
+        "1": {
+          "prob": 35.3,
+          "odds": 2.83
+        },
+        "X": {
+          "prob": 25.0,
+          "odds": 4.0
+        },
+        "2": {
+          "prob": 39.7,
+          "odds": 2.52
+        },
+        "1X": {
+          "prob": 60.3,
+          "odds": 1.66
+        },
+        "X2": {
+          "prob": 64.7,
+          "odds": 1.55
+        },
+        "12": {
+          "prob": 75.0,
+          "odds": 1.33
+        },
+        "Under 2.5": {
+          "prob": 45.9,
+          "odds": 2.18
+        },
+        "Over 2.5": {
+          "prob": 54.1,
+          "odds": 1.85
+        },
+        "Corner Over 8.5": {
+          "prob": 65.2,
+          "odds": 1.53
+        },
+        "Corner Under 11.5": {
+          "prob": 71.2,
+          "odds": 1.41
+        },
+        "Cartellini Over 3.5": {
+          "prob": 21.5,
+          "odds": 4.66
+        }
+      },
+      "top_single": {
+        "market": "Corner Over 8.5",
+        "prob": 65.2,
+        "odds": 1.53
+      },
+      "top_multi_component": {
+        "market": "12",
+        "prob": 75.0,
+        "odds": 1.33
+      }
+    },
+    {
+      "league": "Ligue 1 (Francia)",
+      "match": "Monaco - Montpellier(Prossimo Turno )",
+      "home": "Monaco",
+      "away": "Montpellier",
+      "exp_goals": "3.11 - 0.24",
+      "exp_corners": 9.4,
+      "exp_cards": 2.4,
+      "all_markets": {
+        "1": {
+          "prob": 91.5,
+          "odds": 1.09
+        },
+        "X": {
+          "prob": 6.7,
+          "odds": 14.94
+        },
+        "2": {
+          "prob": 1.4,
+          "odds": 73.69
+        },
+        "1X": {
+          "prob": 98.2,
+          "odds": 1.02
+        },
+        "X2": {
+          "prob": 8.1,
+          "odds": 12.42
+        },
+        "12": {
+          "prob": 92.8,
+          "odds": 1.08
+        },
+        "Under 2.5": {
+          "prob": 34.9,
+          "odds": 2.86
+        },
+        "Over 2.5": {
+          "prob": 65.1,
+          "odds": 1.54
+        },
+        "Corner Over 8.5": {
+          "prob": 59.9,
+          "odds": 1.67
+        },
+        "Corner Under 11.5": {
+          "prob": 76.0,
+          "odds": 1.32
+        },
+        "Cartellini Over 3.5": {
+          "prob": 23.0,
+          "odds": 4.35
+        }
+      },
+      "top_single": {
+        "market": "Over 2.5",
+        "prob": 65.1,
+        "odds": 1.54
+      },
+      "top_multi_component": {
+        "market": "Corner Under 11.5",
+        "prob": 76.0,
+        "odds": 1.32
+      }
+    },
+    {
+      "league": "Ligue 1 (Francia)",
+      "match": "Brest - Le Havre(Prossimo Turno )",
+      "home": "Brest",
+      "away": "Le Havre",
+      "exp_goals": "2.0 - 1.33",
+      "exp_corners": 9.2,
+      "exp_cards": 2.0,
+      "all_markets": {
+        "1": {
+          "prob": 53.1,
+          "odds": 1.88
+        },
+        "X": {
+          "prob": 21.6,
+          "odds": 4.62
+        },
+        "2": {
+          "prob": 25.3,
+          "odds": 3.96
+        },
+        "1X": {
+          "prob": 74.7,
+          "odds": 1.34
+        },
+        "X2": {
+          "prob": 46.9,
+          "odds": 2.13
+        },
+        "12": {
+          "prob": 78.3,
+          "odds": 1.28
+        },
+        "Under 2.5": {
+          "prob": 35.4,
+          "odds": 2.83
+        },
+        "Over 2.5": {
+          "prob": 64.6,
+          "odds": 1.55
+        },
+        "Corner Over 8.5": {
+          "prob": 56.9,
+          "odds": 1.76
+        },
+        "Corner Under 11.5": {
+          "prob": 78.4,
+          "odds": 1.28
+        },
+        "Cartellini Over 3.5": {
+          "prob": 14.3,
+          "odds": 7.0
+        }
+      },
+      "top_single": {
+        "market": "Over 2.5",
+        "prob": 64.6,
+        "odds": 1.55
+      },
+      "top_multi_component": {
+        "market": "1X",
+        "prob": 74.7,
+        "odds": 1.34
+      }
+    },
+    {
       "league": "Bundesliga (Germania)",
       "match": "Werder Bremen - Wolfsburg(Prossimo Turno )",
       "home": "Werder Bremen",
@@ -740,6 +1455,71 @@
         "market": "X2",
         "prob": 76.7,
         "odds": 1.3
+      }
+    },
+    {
+      "league": "Ligue 1 (Francia)",
+      "match": "Angers - Auxerre(Prossimo Turno )",
+      "home": "Angers",
+      "away": "Auxerre",
+      "exp_goals": "1.32 - 2.0",
+      "exp_corners": 9.2,
+      "exp_cards": 1.9,
+      "all_markets": {
+        "1": {
+          "prob": 25.0,
+          "odds": 3.99
+        },
+        "X": {
+          "prob": 21.6,
+          "odds": 4.62
+        },
+        "2": {
+          "prob": 53.3,
+          "odds": 1.88
+        },
+        "1X": {
+          "prob": 46.7,
+          "odds": 2.14
+        },
+        "X2": {
+          "prob": 74.9,
+          "odds": 1.33
+        },
+        "12": {
+          "prob": 78.3,
+          "odds": 1.28
+        },
+        "Under 2.5": {
+          "prob": 35.6,
+          "odds": 2.81
+        },
+        "Over 2.5": {
+          "prob": 64.4,
+          "odds": 1.55
+        },
+        "Corner Over 8.5": {
+          "prob": 56.7,
+          "odds": 1.76
+        },
+        "Corner Under 11.5": {
+          "prob": 78.6,
+          "odds": 1.27
+        },
+        "Cartellini Over 3.5": {
+          "prob": 12.2,
+          "odds": 8.18
+        }
+      },
+      "top_single": {
+        "market": "Over 2.5",
+        "prob": 64.4,
+        "odds": 1.55
+      },
+      "top_multi_component": {
+        "market": "X2",
+        "prob": 74.9,
+        "odds": 1.33
       }
     },
     {
@@ -870,6 +1650,71 @@
         "market": "12",
         "prob": 70.5,
         "odds": 1.42
+      }
+    },
+    {
+      "league": "Ligue 1 (Francia)",
+      "match": "Lyon - Marseille(Prossimo Turno )",
+      "home": "Lyon",
+      "away": "Marseille",
+      "exp_goals": "1.91 - 1.75",
+      "exp_corners": 9.2,
+      "exp_cards": 1.9,
+      "all_markets": {
+        "1": {
+          "prob": 42.4,
+          "odds": 2.36
+        },
+        "X": {
+          "prob": 21.7,
+          "odds": 4.62
+        },
+        "2": {
+          "prob": 36.0,
+          "odds": 2.78
+        },
+        "1X": {
+          "prob": 64.0,
+          "odds": 1.56
+        },
+        "X2": {
+          "prob": 57.6,
+          "odds": 1.74
+        },
+        "12": {
+          "prob": 78.3,
+          "odds": 1.28
+        },
+        "Under 2.5": {
+          "prob": 29.2,
+          "odds": 3.43
+        },
+        "Over 2.5": {
+          "prob": 70.8,
+          "odds": 1.41
+        },
+        "Corner Over 8.5": {
+          "prob": 57.1,
+          "odds": 1.75
+        },
+        "Corner Under 11.5": {
+          "prob": 78.3,
+          "odds": 1.28
+        },
+        "Cartellini Over 3.5": {
+          "prob": 13.2,
+          "odds": 7.55
+        }
+      },
+      "top_single": {
+        "market": "1X",
+        "prob": 64.0,
+        "odds": 1.56
+      },
+      "top_multi_component": {
+        "market": "Over 2.5",
+        "prob": 70.8,
+        "odds": 1.41
       }
     },
     {
@@ -1065,6 +1910,71 @@
         "market": "Corner Under 11.5",
         "prob": 76.3,
         "odds": 1.31
+      }
+    },
+    {
+      "league": "Ligue 1 (Francia)",
+      "match": "Paris SG - Reims(Prossimo Turno )",
+      "home": "Paris SG",
+      "away": "Reims",
+      "exp_goals": "2.13 - 0.65",
+      "exp_corners": 9.7,
+      "exp_cards": 1.6,
+      "all_markets": {
+        "1": {
+          "prob": 71.7,
+          "odds": 1.39
+        },
+        "X": {
+          "prob": 18.2,
+          "odds": 5.48
+        },
+        "2": {
+          "prob": 10.0,
+          "odds": 10.02
+        },
+        "1X": {
+          "prob": 90.0,
+          "odds": 1.11
+        },
+        "X2": {
+          "prob": 28.2,
+          "odds": 3.54
+        },
+        "12": {
+          "prob": 81.7,
+          "odds": 1.22
+        },
+        "Under 2.5": {
+          "prob": 47.5,
+          "odds": 2.11
+        },
+        "Over 2.5": {
+          "prob": 52.5,
+          "odds": 1.9
+        },
+        "Corner Over 8.5": {
+          "prob": 63.0,
+          "odds": 1.59
+        },
+        "Corner Under 11.5": {
+          "prob": 73.3,
+          "odds": 1.36
+        },
+        "Cartellini Over 3.5": {
+          "prob": 8.1,
+          "odds": 12.31
+        }
+      },
+      "top_single": {
+        "market": "Corner Over 8.5",
+        "prob": 63.0,
+        "odds": 1.59
+      },
+      "top_multi_component": {
+        "market": "Corner Under 11.5",
+        "prob": 73.3,
+        "odds": 1.36
       }
     },
     {
@@ -1588,6 +2498,71 @@
       }
     },
     {
+      "league": "Premier League (Inghilterra)",
+      "match": "Fulham - Ipswich(Prossimo Turno )",
+      "home": "Fulham",
+      "away": "Ipswich",
+      "exp_goals": "1.88 - 1.29",
+      "exp_corners": 10.2,
+      "exp_cards": 2.3,
+      "all_markets": {
+        "1": {
+          "prob": 51.3,
+          "odds": 1.95
+        },
+        "X": {
+          "prob": 22.5,
+          "odds": 4.44
+        },
+        "2": {
+          "prob": 26.2,
+          "odds": 3.82
+        },
+        "1X": {
+          "prob": 73.8,
+          "odds": 1.36
+        },
+        "X2": {
+          "prob": 48.7,
+          "odds": 2.05
+        },
+        "12": {
+          "prob": 77.5,
+          "odds": 1.29
+        },
+        "Under 2.5": {
+          "prob": 38.7,
+          "odds": 2.58
+        },
+        "Over 2.5": {
+          "prob": 61.3,
+          "odds": 1.63
+        },
+        "Corner Over 8.5": {
+          "prob": 68.9,
+          "odds": 1.45
+        },
+        "Corner Under 11.5": {
+          "prob": 67.4,
+          "odds": 1.48
+        },
+        "Cartellini Over 3.5": {
+          "prob": 20.9,
+          "odds": 4.78
+        }
+      },
+      "top_single": {
+        "market": "Over 2.5",
+        "prob": 61.3,
+        "odds": 1.63
+      },
+      "top_multi_component": {
+        "market": "1X",
+        "prob": 73.8,
+        "odds": 1.36
+      }
+    },
+    {
       "league": "Serie A (Italia)",
       "match": "Parma - Roma(Prossimo Turno )",
       "home": "Parma",
@@ -2108,6 +3083,71 @@
       }
     },
     {
+      "league": "Ligue 1 (Francia)",
+      "match": "Rennes - St Etienne(Prossimo Turno )",
+      "home": "Rennes",
+      "away": "St Etienne",
+      "exp_goals": "2.37 - 0.64",
+      "exp_corners": 9.3,
+      "exp_cards": 2.1,
+      "all_markets": {
+        "1": {
+          "prob": 75.8,
+          "odds": 1.32
+        },
+        "X": {
+          "prob": 15.8,
+          "odds": 6.32
+        },
+        "2": {
+          "prob": 8.3,
+          "odds": 12.03
+        },
+        "1X": {
+          "prob": 91.6,
+          "odds": 1.09
+        },
+        "X2": {
+          "prob": 24.1,
+          "odds": 4.14
+        },
+        "12": {
+          "prob": 84.1,
+          "odds": 1.19
+        },
+        "Under 2.5": {
+          "prob": 42.1,
+          "odds": 2.38
+        },
+        "Over 2.5": {
+          "prob": 57.9,
+          "odds": 1.73
+        },
+        "Corner Over 8.5": {
+          "prob": 58.1,
+          "odds": 1.72
+        },
+        "Corner Under 11.5": {
+          "prob": 77.5,
+          "odds": 1.29
+        },
+        "Cartellini Over 3.5": {
+          "prob": 15.9,
+          "odds": 6.28
+        }
+      },
+      "top_single": {
+        "market": "Corner Over 8.5",
+        "prob": 58.1,
+        "odds": 1.72
+      },
+      "top_multi_component": {
+        "market": "1",
+        "prob": 75.8,
+        "odds": 1.32
+      }
+    },
+    {
       "league": "La Liga (Spagna)",
       "match": "Osasuna - Real Madrid(Prossimo Turno )",
       "home": "Osasuna",
@@ -2368,6 +3408,136 @@
       }
     },
     {
+      "league": "Ligue 1 (Francia)",
+      "match": "Lens - Lille(Prossimo Turno )",
+      "home": "Lens",
+      "away": "Lille",
+      "exp_goals": "0.74 - 1.17",
+      "exp_corners": 9.2,
+      "exp_cards": 2.7,
+      "all_markets": {
+        "1": {
+          "prob": 23.2,
+          "odds": 4.31
+        },
+        "X": {
+          "prob": 30.7,
+          "odds": 3.25
+        },
+        "2": {
+          "prob": 46.1,
+          "odds": 2.17
+        },
+        "1X": {
+          "prob": 53.9,
+          "odds": 1.85
+        },
+        "X2": {
+          "prob": 76.8,
+          "odds": 1.3
+        },
+        "12": {
+          "prob": 69.3,
+          "odds": 1.44
+        },
+        "Under 2.5": {
+          "prob": 70.3,
+          "odds": 1.42
+        },
+        "Over 2.5": {
+          "prob": 29.7,
+          "odds": 3.36
+        },
+        "Corner Over 8.5": {
+          "prob": 56.5,
+          "odds": 1.77
+        },
+        "Corner Under 11.5": {
+          "prob": 78.7,
+          "odds": 1.27
+        },
+        "Cartellini Over 3.5": {
+          "prob": 27.7,
+          "odds": 3.6
+        }
+      },
+      "top_single": {
+        "market": "Corner Over 8.5",
+        "prob": 56.5,
+        "odds": 1.77
+      },
+      "top_multi_component": {
+        "market": "X2",
+        "prob": 76.8,
+        "odds": 1.3
+      }
+    },
+    {
+      "league": "Ligue 1 (Francia)",
+      "match": "Strasbourg - Toulouse(Prossimo Turno )",
+      "home": "Strasbourg",
+      "away": "Toulouse",
+      "exp_goals": "1.49 - 1.21",
+      "exp_corners": 8.8,
+      "exp_cards": 2.0,
+      "all_markets": {
+        "1": {
+          "prob": 43.6,
+          "odds": 2.29
+        },
+        "X": {
+          "prob": 25.5,
+          "odds": 3.92
+        },
+        "2": {
+          "prob": 30.9,
+          "odds": 3.24
+        },
+        "1X": {
+          "prob": 69.1,
+          "odds": 1.45
+        },
+        "X2": {
+          "prob": 56.4,
+          "odds": 1.77
+        },
+        "12": {
+          "prob": 74.5,
+          "odds": 1.34
+        },
+        "Under 2.5": {
+          "prob": 49.3,
+          "odds": 2.03
+        },
+        "Over 2.5": {
+          "prob": 50.7,
+          "odds": 1.97
+        },
+        "Corner Over 8.5": {
+          "prob": 51.1,
+          "odds": 1.96
+        },
+        "Corner Under 11.5": {
+          "prob": 82.7,
+          "odds": 1.21
+        },
+        "Cartellini Over 3.5": {
+          "prob": 14.3,
+          "odds": 7.0
+        }
+      },
+      "top_single": {
+        "market": "X2",
+        "prob": 56.4,
+        "odds": 1.77
+      },
+      "top_multi_component": {
+        "market": "12",
+        "prob": 74.5,
+        "odds": 1.34
+      }
+    },
+    {
       "league": "Serie A (Italia)",
       "match": "Lecce - Milan(Prossimo Turno )",
       "home": "Lecce",
@@ -2560,6 +3730,71 @@
         "market": "Under 2.5",
         "prob": 75.1,
         "odds": 1.33
+      }
+    },
+    {
+      "league": "Premier League (Inghilterra)",
+      "match": "Leicester - Liverpool(Prossimo Turno )",
+      "home": "Leicester",
+      "away": "Liverpool",
+      "exp_goals": "0.69 - 2.92",
+      "exp_corners": 10.1,
+      "exp_cards": 2.1,
+      "all_markets": {
+        "1": {
+          "prob": 6.0,
+          "odds": 16.79
+        },
+        "X": {
+          "prob": 11.6,
+          "odds": 8.62
+        },
+        "2": {
+          "prob": 82.1,
+          "odds": 1.22
+        },
+        "1X": {
+          "prob": 17.6,
+          "odds": 5.7
+        },
+        "X2": {
+          "prob": 93.7,
+          "odds": 1.07
+        },
+        "12": {
+          "prob": 88.1,
+          "odds": 1.14
+        },
+        "Under 2.5": {
+          "prob": 30.2,
+          "odds": 3.31
+        },
+        "Over 2.5": {
+          "prob": 69.8,
+          "odds": 1.43
+        },
+        "Corner Over 8.5": {
+          "prob": 67.6,
+          "odds": 1.48
+        },
+        "Corner Under 11.5": {
+          "prob": 68.8,
+          "odds": 1.45
+        },
+        "Cartellini Over 3.5": {
+          "prob": 15.5,
+          "odds": 6.45
+        }
+      },
+      "top_single": {
+        "market": "Under 2.5",
+        "prob": 30.2,
+        "odds": 3.31
+      },
+      "top_multi_component": {
+        "market": "Over 2.5",
+        "prob": 69.8,
+        "odds": 1.43
       }
     }
   ]
